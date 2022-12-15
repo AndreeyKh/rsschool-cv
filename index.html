@@ -1,13 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Andrey's CV">
    <link rel="stylesheet" href="css/style.css">
-   <title>RSSchool Stage 0</title>
+   <link rel="stylesheet" href="css/refreshStyle.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+   <title>CV</title>
 </head>
+
 <body>
-   <p>Some text</p>
+
+   <nav>
+      <ul>
+         <li> <a href="#email">Contacts</a></li>
+         <li> <a href="#aboutMe"> About me </a></li>
+         <li> <a href="#skills">Skills</a> </li>
+         <li> <a href="#code">Code</a> </li>
+         <li> <a href="#education"> Education</a> </li>
+         <li> <a href="#english">English</a> </li>
+      </ul>
+   </nav>
+
+   <div class="wraper">
+      <main>
+         <div class="titleInfo">
+            <div class="myPhoto">
+               <img src="assets/image/myNewPhoto.jpg" alt="Author's Photo" width="300">
+            </div>
+            <div class="myName">
+               <h1> Andrey Khoroshun </h1> Junior Frontend Developer
+            </div>
+         </div>
+
+         <section class="infoAboutMe">
+            <div class="info__items">
+
+               <div class="constacts">
+                  <h3>Contacts</h3>
+                  <ul>
+                     <li class="item__email" id="email"> <a
+                           href="https://mailto:andreey.kh@gmail.com">andreey.kh@gmail.com</a> </li>
+                     <li class="item__telegram"> <a href="https://t.me/andreeykh">andreeykh</a></li>
+                     <li class="item__discord"> <a href="https://discord.gg/VY9VmWfP">Andrey.Kharashun</a> </li>
+                     <li class="item__gitHub"> <a href="https://github.com/andreeykh">andreeykh</a> </li>
+                     <li class="item__country">Belarus</li>
+                  </ul>
+               </div>
+            </div>
+
+
+            <div class="summary" id="aboutMe">
+               <h3>About me</h3>
+               <div class="text">
+                  Greetings to all visitors to this page. My name is Andrey, as you read above. I have a main job, but
+                  programming is my small hobby. I am still in the early stages of this hobby. I would like to master
+                  this
+                  activity and in the future make money on a pleasant one.
+               </div>
+            </div>
+         </section>
+         <section class="english--education">
+            <div class="education" id="education">
+               <h3>Education</h3>
+               <div class="education__text">
+                  Brest Pushkin University
+               </div>
+            </div>
+
+            <div class="english" id="english">
+               <h3>English</h3>
+               <div class="english__text">
+                  A2 (Pre-Intermediate)
+               </div>
+            </div>
+         </section>
+
+         <section class="skills--courses">
+            <div class="skills" id="skills">
+               <h3>Skills</h3>
+               <div class="skills__ul">
+                  <ul>
+                     <li>HTML5, CSS, JavaScript</li>
+                     <li>VC: GIT, GitHub</li>
+                     <li>Graphics: Figma, Adobe Photoshop CC 2019</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="courses">
+               <h3>Course</h3>
+               <div class="courses__text">
+                  [Udemy] [Ivan Petrichenko] The Complete JavaScript + React Course - Zero Result
+               </div>
+            </div>
+         </section>
+
+         <section>
+            <div class="code" id="code">
+               <h3>Code Example</h3>
+               <div class="code__text">
+                  <pre>
+                        <code>
+                           const arr = [4, 6, 2, 1, 9, 63, -134, 566];
+                                 let min = Math.min.apply(null, arr)
+                                 console.log(min);
+                        </code>
+                        </pre>
+               </div>
+            </div>
+         </section>
+      </main>
+   </div>
+   <footer>
+      <div class="year">2022</div>
+      <div class="name"> <a href="https://github.com/andreeykh">Visit My GitHub</a> </div>
+      <img src="assets/image/rs_school_js.svg" alt="logo" width="100">
+   </footer>
 </body>
 </html>
